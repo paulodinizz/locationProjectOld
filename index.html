@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Project</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div class="location" >
+        <img src="./assets/images/backgroud.jpg" usemap="#image-map" class="map">
+        <map name="image-map" >
+            <area alt="Alemanha" title="Click to view Alemanha branch information" href="#modalInfoAlemanha" data-bs-toggle="modal" data-target="#modalInfoAlemanha" coords="926,221,919,211,902,201,883,216,876,229,883,241,887,252,902,252,915,252,912,235" shape="poly">
+            <area alt="Suiça" title="Click to view Suiça branch information" href="#modalInfoSuica" data-bs-toggle="modal" data-target="#modalInfoSuica" coords="880,262,888,255,898,252,907,255,895,263" shape="poly">
+            <area alt="França" title="Click to view França branch information" href="#modalInfoFranca" data-bs-toggle="modal" data-target="#modalInfoFranca" coords="822,246,858,225,888,246,876,259,882,278,858,286,841,293,827,273" shape="poly">
+            <area alt="Italia" title="Click to view Italia branch information" href="#modalInfoItalia" data-bs-toggle="modal" data-target="#modalInfoItalia" coords="878,270,929,339,949,304,912,260" shape="poly">
+            <area alt="Brazil" title="Click to view Brazil branch information" href="#modalInfoBrazil" data-bs-toggle="modal" data-target="#modalInfoBrazil" coords="380,627,366,653,419,676,461,692,485,761,490,816,522,822,589,746,606,690,621,631,512,568,463,580,458,549,426,568,402,573,397,573" shape="poly">
+            <area alt="Usa" title="Click to view US branch information" href="#modalInfoUsa" data-bs-toggle="modal" data-target="#modalInfoUsa"coords="165,244,124,295,126,344,178,366,224,388,260,426,293,373,329,385,351,412,368,370,388,341,405,324,410,307,451,295,475,253,436,264,392,285,370,259,327,242" shape="poly">
+        </map>
+    </div>
+    <div class="modal fade modalInfoUsa" id="modalInfoUsa" tabindex="-1" aria-labelledby="modalInfoUsa" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content"style="background: #2c2c2c;">
+                <div class="modal-body">
+                    <section class="topSection d-flex justify-content-start-center">OFFICE'S LOCATION IN UNITED STATES</section>
+                    <div class="row">
+                        <div class="col-8 col-sm-6 leftCard">
+                            <div class="left">
+                                <div class="cardSection">
+                                    <h1>ATLANTA (GEORGIA)</h1>
+                                    <p style="margin: 0">3500 Lenox Rd NE Suite 1200</p>
+                                    <p style="margin: 0">Atlanta, GA USA 30326</p>
+                                    <p style="margin: 0">Tel: +1 (404) 926 0078</p>
+                                    <p style="margin: 0">Fax: +1 (404) 631 6407</p>
+                                    <a class="map"target="_blank" href="https://www.google.it/maps/place/3500+Lenox+Rd+NE%2c+Atlanta%2c+GA+30326%2c+Stati+Uniti/%4033.8520311%2c-84.3684692%2c17z/data=%213m1%214b1%214m5%213m4%211s0x88f50f598a07d81d:0xe4813ba59fea29ed%218m2%213d33.8520311%214d-84.3662805">See on map</a>
+                                </div>
+                                <br>
+                                <div class="cardSection">
+                                    <h1>AUBURN HILLS (MICHIGAN)</h1>
+                                    <p style="margin: 0">691N Squirrel rd. Suite 202</p>
+                                    <p style="margin: 0">Auburn Hills, IL USA 48326</p>
+                                    <p style="margin: 0">Tel: +1 (248) 686 2481</p>
+                                    <p style="margin: 0">Fax: +1 (248) 499 6570</p>
+                                    <a class="map"target="_blank" href="https://www.google.it/maps/place/Reply+Inc/%4042.648152%2c-83.221313%2c17z/data=%213m1%214b1%214m2%213m1%211s0x8824c039779e7a5d:0xba525e9be7911879?hl=it">See on map</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 col-sm-6 rightCard">
+                            <div class="left">
+                                <div class="cardSection">
+                                    <h1>CHICAGO (ILLINOIS)</h1>
+                                    <p style="margin: 0">71 South Wacker dr. Suite 3090</p>
+                                    <p style="margin: 0">Chicago, IL USA 60606</p>
+                                    <p style="margin: 0">Tel: +1 (248) 686 2481</p>
+                                    <p style="margin: 0">Fax: +1 (312) 248 8910</p>
+                                    <a class="map"target="_blank" href="https://www.google.com/maps/place/71+S+Wacker+Dr+%233090%2c+Chicago%2c+IL+60606%2c+USA/%4041.8809954%2c-87.6382275%2c17z/data=%213m1%214b1%214m5%213m4%211s0x880e2cb8d7ac4c33:0x599f8898ec8125a5%218m2%213d41.8809914%214d-87.6360388">See on map</a>
+                                </div>
+                                <br>
+                                <div class="cardSection">
+                                    <h1>SEATTLE (WASHINGTON)</h1>
+                                    <p style="margin: 0">1201 Western Ave. #350</p>
+                                    <p style="margin: 0">Seattle, WA USA 98101</p>
+                                    <p style="margin: 0">Tel: +1 (855) 864 9929</p>
+                                    <a class="map"target="_blank" href="https://www.google.com/maps/place/1201+Western+Ave+%23350%2c+Seattle%2c+WA+98101%2c+USA/data=%214m2%213m1%211s0x54906ab1fb08028d:0x3b1010453dfa59d2?sa=X&ved=2ahUKEwihw7qHmfD2AhXr7rsIHZcUCYsQ8gF6BAgWEAE">See on map</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modalInfoBrazil" id="modalInfoBrazil" tabindex="-1" aria-labelledby="modalInfoBrazil" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content"style="background: #2c2c2c;">
+                <div class="modal-body left">
+                    <section class="topSection d-flex justify-content-start-center">OFFICE'S LOCATION IN BRAZIL</section>
+                    <section class="cardSection col">
+                        <h1>BELO HORIZONTE</h1>
+                        <p style="margin: 0">Av. Nossa Senhora do Carmo, 660 - 1º andar</p>
+                        <p style="margin: 0">São Pedro 30330-000 Belo Horizonte - MG, Brasil</p>
+                        <p style="margin: 0">Tel: +55 31 25145900</p>
+                        <a class="map"target="_blank" href="https://www.google.com.br/maps/place/Av.+Nossa+Sra.+do+Carmo,+660+-+São+Pedro,+Belo+Horizonte+-+MG,+30330-000/@-19.945643,-43.9350723,17z/data=!3m1!4b1!4m5!3m4!1s0xa699d214852795:0x129b6e2f63e87d37!8m2!3d-19.945643!4d-43.9350723?hl=it">See on map</a>
+                        <h1>São Paulo</h1>
+                        <p style="margin: 0">Centro Empresarial de São Paulo - CENESP </p>
+                        <p style="margin: 0">Av. Maria Coelho Aguiar, 215 - Bloco E – 1º andar</p>
+                        <p style="margin: 0">Jardim São Luís - 05805-000 SP, Brasil</p>
+                        <p style="margin: 0">Tel: +55 11 4862-7200</p>
+                        <a class="map"target="_blank" href="https://www.google.it/maps/place/Cenesp/@-23.6501158,-46.7301574,18z/data=!4m9!1m2!2m1!1sCentro+Empresarial+de+São+Paulo+-+CENESP+!3m5!1s0x94ce517357690433:0x8bf818b8fd3023d1!8m2!3d-23.6520619!4d-46.7298361!15sCipDZW50cm8gRW1wcmVzYXJpYWwgZGUgU8OjbyBQYXVsbyAtIENFTkVTUCBaKSInY2VudHJvIGVtcHJlc2FyaWFsIGRlIHPDo28gcGF1bG8gY2VuZXNwkgERZ292ZXJubWVudF9vZmZpY2U">See on map</a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modalInfoItalia" id="modalInfoItalia" tabindex="-1" aria-labelledby="modalInfoItalia" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl" role="document">
+            <div class="modal-content"style="background: #2c2c2c;">
+                <div class="modal-body scroll">
+                    <section class="topSection d-flex justify-content-start-center">OFFICE'S LOCATION IN ITALY</section>
+                    <div class="row">
+                        <div class="col-sm leftCard">
+                            <div class="left">
+                                <div class="cardSection">
+                                    <h1>TURIM</h1>
+                                    <a target="_blank" href="https://www.google.it/maps/place/Via+Cardinal+Massaia,+71,+10147+Torino+TO,+Italia/@45.1011672,7.6694917,17z/data=!3m1!4b1!4m5!3m4!1s0x47886dc9126f07e3:0x625ac734a9e7f67c!8m2!3d45.1011672!4d7.6694917?hl=it">
+                                        <p style="margin: 0">Via Cardinale Massaia</p>
+                                        <p style="margin: 0">71 - 10147, Turim, Itália</p>
+                                        <p style="margin: 0">Tel: +39 011 29100</p>
+                                        <p style="margin: 0">Fax: +39 011 2911009</p>
+                                    </a>
+                                </div>
+                                <br>
+                                <div class="cardSection">
+                                    <a target="_blank" href="https://www.google.it/maps/place/Via+Cardinal+Massaia%2c+75%2c+10147+Torino+TO/%4045.1012785%2c7.6669042%2c17z/data=%213m1%214b1%214m5%213m4%211s0x47886dc96d58f495:0xb9ee53b251fc8273%218m2%213d45.1012785%214d7.6690929?hl=it">
+                                        <p style="margin: 0">Via Cardinale Massaia</p>
+                                        <p style="margin: 0">75 - 10147 Turim, Itália</p>
+                                        <p style="margin: 0">Tel: +39 011 29100</p>
+                                        <p style="margin: 0">Fax: +39 011 2911009</p>
+                                    </a>
+                                </div>
+                                <br>
+                                <div class="cardSection">
+                                    <a target="_blank" href="https://www.google.it/maps/place/Via+Nizza%2c+250%2c+10126+Torino+TO/%4045.0331129%2c7.6648944%2c17z/data=%213m1%214b1%214m5%213m4%211s0x478812b7f105ea25:0x3faec06230006814%218m2%213d45.0331091%214d7.6670831?hl=it">
+                                        <p style="margin: 0">Via Nizza</p>
+                                        <p style="margin: 0">250, 10126, Turim, Itália</p>
+                                        <p style="margin: 0">Tel: +39 011 29100</p>
+                                        <p style="margin: 0">Fax: +39 011 2911009</p>
+                                    </a>
+                                </div>
+                                <br>
+                                <div class="cardSection">
+                                    <a target="_blank" href="https://www.google.it/maps/place/Via+Nizza%2c+262%2c+10126+Torino+TO/%4045.0319909%2c7.6632331%2c17z/data=%213m1%214b1%214m5%213m4%211s0x478812b814bb226d:0x26bd81ec5782aca9%218m2%213d45.0319909%214d7.6654218?hl=it">
+                                        <p style="margin: 0">Via Nizza</p>
+                                        <p style="margin: 0">262 int. 56, 10126, Turim, Itália</p>
+                                        <p style="margin: 0">Tel: +39 011 29100</p>
+                                        <p style="margin: 0">Fax: +39 011 2911009</p>
+                                    </a>
+                                </div>
+                                <br>
+                                <div class="cardSection">
+                                    <h1>BARI</h1>
+                                    <a target="_blank" href="https://www.google.it/maps/place/Piazza+Aldo+Moro%2c+37%2c+70121+Bari+BA/%4041.1190024%2c16.8698865%2c18.06z/data=%214m5%213m4%211s0x1347e85c222abefb:0x4eab4dfc092c86f%218m2%213d41.118821%214d16.8711343">
+                                        <p style="margin: 0">Piazza Aldo Moro</p>
+                                        <p style="margin: 0">37 – 70121 Bari, Itália</p>
+                                        <p style="margin: 0">Tel: +39 080 2442001</p>
+                                    </a>
+                                </div>
+                                <br>
+                                <div class="cardSection">
+                                    <h1>BOLOGNA</h1>
+                                    <a target="_blank" href="https://www.google.it/maps/place/Viale+Angelo+Masini%2c+12%2c+40126+Bologna+BO/%4044.5042465%2c11.3461913%2c17z/data=%213m1%214b1%214m5%213m4%211s0x477fd4a21de3d835:0xb110cba0ab67a533%218m2%213d44.5042465%214d11.34838">
+                                        <p style="margin: 0">Viale Masini</p>
+                                        <p style="margin: 0">12 - 40126 Bologna, Itália</p>
+                                        <p style="margin: 0">Tel: +39 02 535761</p>
+                                        <p style="margin: 0">Fax: +39 02 53576444</p>
+                                    </a>
+                                </div>
+                                <div class="cardSection">
+                                    <h1>VERONA</h1>
+                                    <a target="_blank" href="https://www.google.com/maps/place/Reply/%4045.4144028%2c11.090067%2c17z/data=%214m12%211m6%213m5%211s0x477f5c470faeda79:0xdea32552555124c2%212sReply%218m2%213d45.4141782%214d11.0898165%213m4%211s0x477f5c470faeda79:0xdea32552555124c2%218m2%213d45.4141782%214d11.0898165">
+                                        <p style="margin: 0">Viale del Lavoro</p>
+                                        <p style="margin: 0">33 - 37036 Verona, Itália</p>
+                                        <p style="margin: 0">Tel: +39 045 8781804</p>
+                                        <p style="margin: 0">Fax: +39 045 8781804</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm middleCard">
+                            <div class="left">
+                                <div class="cardSection">
+                                    <h1>MILÃO</h1>
+                                    <a target="_blank" href="https://www.google.it/maps/place/Reply+Spa/%4045.500898%2c9.109878%2c17z/data=%213m1%214b1%214m2%213m1%211s0x4786c1d3146df893:0x60c4673d09009ee1?hl=en">
+                                        <p style="margin: 0">Via Castellanza</p>
+                                        <p style="margin: 0">11 - 20151 Milão, Itália</p>
+                                        <p style="margin: 0">Tel: +39 02 535761</p>
+                                        <p style="margin: 0">Fax: +39 02 53576444</p>
+                                    </a>
+                                </div>
+                                <br>
+                                <div class="cardSection">
+                                    <a target="_blank" href="https://www.google.it/maps/place/Reply+Spa/%4045.445161%2c9.114103%2c17z/data=%214m2%213m1%211s0x4786c1d3146df893:0xb76b0e65c8cc1f90">
+                                        <p style="margin: 0">Via Robert Koch</p>
+                                        <p style="margin: 0">1/4 - 20152 Milão, Itália</p>
+                                        <p style="margin: 0">Tel: +39 02 535761</p>
+                                        <p style="margin: 0">Fax: +39 02 53576265</p>
+                                    </a>
+                                </div>
+                                <br>
+                                <div class="cardSection">
+                                    <a target="_blank" href="https://www.google.com/maps/place/Via+Giovanni+Bensi%2c+1%2c+20152+Milano+MI/%4045.4462992%2c9.1152871%2c17z/data=%213m1%214b1%214m5%213m4%211s0x4786c238435c6059:0xdd6d42c75498c135%218m2%213d45.4462992%214d9.1174758">
+                                        <p style="margin: 0">Via Bensi</p>
+                                        <p style="margin: 0">1 - 20152 Milão, Itália</p>
+                                        <p style="margin: 0">Tel: +39 02 535761</p>
+                                    </a>
+                                </div>
+                                <br>
+                                <div class="cardSection">
+                                    <a target="_blank" href="https://www.google.com/maps/place/Via+Giuseppe+Ripamonti%2c+104%2c+20141+Milano+MI/%4045.4403791%2c9.1969568%2c17z/data=%213m1%214b1%214m5%213m4%211s0x4786c43fd3866f4b:0xa6a35f4591028d59%218m2%213d45.4403791%214d9.1991455">
+                                        <p style="margin: 0">Via Ripamonti</p>
+                                        <p style="margin: 0">104 - 20141 Milão, Itália</p>
+                                        <p style="margin: 0">Tel: +39 02 535761</p>
+                                        <p style="margin: 0">Fax: +39 02 53576444</p>
+                                    </a>
+                                </div>
+                                <br>
+                                <div class="cardSection">
+                                    <h1>FLORENCE</h1>
+                                    <a target="_blank" href="https://www.google.it/maps/place/Viale+Belfiore%2c+10%2c+50144+Firenze+FI/%4043.7793646%2c11.2394311%2c17z/data=%213m1%214b1%214m5%213m4%211s0x132a56a54667f95f:0x3e14e4aa52adc959%218m2%213d43.7793646%214d11.2416198">
+                                        <p style="margin: 0">Via Belfiore</p>
+                                        <p style="margin: 0">10 - 50144 Florence, Itália</p>
+                                        <p style="margin: 0">Tel: +39 055 3241120</p>
+                                    </a>
+                                </div>
+                                <br>
+                                <div class="cardSection">
+                                    <h1>GENOA</h1>
+                                    <a target="_blank" href="https://www.google.it/maps/place/Via+XII+Ottobre%2c+1%2c+16121+Genova+GE/%4044.4080736%2c8.9348922%2c17z/data=%213m1%214b1%214m5%213m4%211s0x12d343e822c01577:0x58e79854ecff2102%218m2%213d44.4080736%214d8.9370862">
+                                        <p style="margin: 0">Via XII Ottobre</p>
+                                        <p style="margin: 0">1 - 16121 Genoa, Itália</p>
+                                        <p style="margin: 0">Tel: +39 02 535761</p>
+                                        <p style="margin: 0">Fax: +39 02 53576444</p>
+                                    </a>
+                                </div>
+                                <div class="cardSection">
+                                    <h1>TRIESTE</h1>
+                                    <a target="_blank" href="https://www.google.com/maps/place/E3%2c+Località+Padriciano%2c+99%2c+34149+Area+di+Ricerca+TS/%4045.6581811%2c13.8257051%2c17z/data=%213m1%214b1%214m5%213m4%211s0x477b6ac110f3fa13:0xa1776fb028133c86%218m2%213d45.6581811%214d13.8278938">
+                                        <p style="margin: 0">Loc. Padriciano</p>
+                                        <p style="margin: 0">99 - 34149 Trieste, Itália</p>
+                                        <p style="margin: 0">Tel: +39 040 3755369</p>
+                                        <p style="margin: 0">Fax: +39 040 3755358</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm rightCard">
+                            <div class="left">
+                                <div class="cardSection">
+                                    <h1>ROME</h1>
+                                    <a target="_blank" href="https://www.google.it/maps/place/Reply+SpA/%4041.849959%2c12.494591%2c18z/data=%213m1%214b1%214m2%213m1%211s0x132f6055f3a10c33:0x2266210059e20ff7?hl=it">
+                                        <p style="margin: 0">Via del Giorgione</p>
+                                        <p style="margin: 0">59 - 00147 Rome, Itália</p>
+                                        <p style="margin: 0">Tel: +39 06 844341</p>
+                                        <p style="margin: 0">Fax: +39 06 84434599</p>
+                                    </a>                                   
+                                </div>
+                                <br>
+                                <div class="cardSection">
+                                    <a target="_blank" href="https://www.google.com/maps/place/Via+Giorgio+Bonelli%2c+40%2c+00172+Roma+RM/%4041.8730463%2c12.5724173%2c17z/data=%213m1%214b1%214m5%213m4%211s0x132f62621bb09c4d:0x7ae677a2e692472a%218m2%213d41.8730463%214d12.574606">
+                                        <p style="margin: 0">Via Bonelli</p>
+                                        <p style="margin: 0">40 - 00172 Rome, Itália</p>
+                                        <p style="margin: 0">Tel: +39 06 844341</p>
+                                        <p style="margin: 0">Fax: +39 06 657487433</p>
+                                    </a>
+                                </div>
+                                <br>
+                                <div class="cardSection">
+                                    <a target="_blank" href="https://www.google.it/maps/place/Via+Giovanni+da+Castel+Bolognese%2c+81%2c+00153+Roma+RM/%4041.8734398%2c12.4667936%2c17z/data=%213m1%214b1%214m5%213m4%211s0x132f6026fa82d127:0xdedf96eb3ee90fae%218m2%213d41.8734398%214d12.4689823">
+                                        <p style="margin: 0">Via Castel Bolognese</p>
+                                        <p style="margin: 0">81 - 00153 Rome, Itália</p>
+                                        <p style="margin: 0">Tel: +39 06 58335926</p>
+                                        <p style="margin: 0">Fax: +39 06 5883823</p>
+                                    </a>
+                                </div>
+                                <br>
+                                <div class="cardSection">
+                                    <h1>PADOVA</h1>
+                                    <a target="_blank" href="https://www.google.it/maps/place/Via+Giacinto+Andrea+Longhin%2c+103%2c+35129+Padova+PD/%4045.4084886%2c11.9121861%2c17z/data=%213m1%214b1%214m5%213m4%211s0x477edac227b86dd9:0x73a1b30db528f99f%218m2%213d45.4084886%214d11.9143801">
+                                        <p style="margin: 0">Via Longhin</p>
+                                        <p style="margin: 0">103 - 35129 Padova, Itália</p>
+                                        <p style="margin: 0">Tel: +39 049 744861</p>
+                                    </a>
+                                </div>
+                                <br>
+                                <div class="cardSection">
+                                    <h1>PARMA</h1>
+                                    <a target="_blank" href="https://www.google.it/maps/place/Borgo+Marco+dell%27Arpa%2c+8%2c+43121+Parma+PR/%4044.799039%2c10.3380487%2c17z/data=%213m1%214b1%214m5%213m4%211s0x47806ada4b1c9025:0xeff7967b37a81bd%218m2%213d44.799039%214d10.3402427">
+                                        <p style="margin: 0">Via Marco dell'Arpa</p>
+                                        <p style="margin: 0">8 - 43121 Parma, Itália</p>
+                                        <p style="margin: 0">Tel: +39 0521 1791599</p>
+                                        <p style="margin: 0">Fax: +39 0521 1791112</p>
+                                    </a>
+                                </div>
+                                <br>
+                                <div class="cardSection">
+                                    <h1>SILEA</h1>
+                                    <a target="_blank" href="https://www.google.it/maps/place/Via+Avogadri%2c+2%2c+31057+Silea+TV/%4045.6622037%2c12.2964844%2c17z/data=%213m1%214b1%214m5%213m4%211s0x477948fe8449fd2f:0xdc752f52c13844a1%218m2%213d45.6622037%214d12.2986784">
+                                        <p style="margin: 0">Via Avogadri</p>
+                                        <p style="margin: 0">2-6 - 31057 Silea (TV), Itália</p>
+                                        <p style="margin: 0">Tel: +39 0422 1836521</p>
+                                        <p style="margin: 0">Fax: +39 0422 469510</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modalInfoFranca" id="modalInfoFranca" tabindex="-1" aria-labelledby="modalInfoFranca" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content"style="background: #2c2c2c;">
+                <div class="modal-body">
+                    <section class="topSection d-flex justify-content-start-center">OFFICE'S LOCATION IN FRANCE</section>
+                    <div class="row">
+                        <div class="col-8 col-sm-6 leftCard">
+                            <div class="left">
+                                <div class="cardSection">
+                                    <h1>PARIS</h1>
+                                    <a target="_blank" href="https://www.google.fr/maps/place/3+Rue+du+Faubourg+Saint-Honoré%2c+75008+Paris%2c+France/%4048.8684071%2c2.3226945%2c17z/data=%214m2%213m1%211s0x47e66fcd36a69ca3:0xbc79be15c77bcd72">
+                                        <p style="margin: 0">3, rue du Faubourg Saint Honore</p>
+                                        <p style="margin: 0">75008 Paris, França</p>
+                                        <p style="margin: 0">Tel: +33 (0) 1 70 23 08 74</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modalInfoSuica" id="modalInfoSuica" tabindex="-1" aria-labelledby="modalInfoSuica" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content"style="background: #2c2c2c;">
+                <div class="modal-body">
+                    <section class="topSection d-flex justify-content-start-center">OFFICE'S LOCATION IN SWITZERLAND</section>
+                    <div class="row">
+                        <div class="col-8 col-sm-6 leftCard">
+                            <div class="left">
+                                <div class="cardSection">
+                                    <h1>ZURICH</h1>
+                                    <a target="_blank" href="https://www.google.com/maps/place/Rennweg+28%2c+8001+Zürich%2c+Svizzera/%4047.373212%2c8.5374621%2c17z/data=%213m1%214b1%214m5%213m4%211s0x47900a071ea66537:0xece40c75ab9fbf5%218m2%213d47.373212%214d8.5396508">
+                                        <p style="margin: 0">Rennweg</p>
+                                        <p style="margin: 0">28, 8001 Zurich, Suíça</p>
+                                        <p style="margin: 0">Tel: +49 5241 50 09-0</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modalInfoAlemanha" id="modalInfoAlemanha" tabindex="-1" aria-labelledby="modalInfoAlemanha" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content"style="background: #2c2c2c;">
+                <div class="modal-body">
+                    <section class="topSection d-flex justify-content-start-center">OFFICE'S LOCATION IN GERMANY</section>
+                    <div class="row">
+                        <div class="col-8 col-sm-6 leftCard">
+                            <div class="left">
+                                <div class="cardSection">
+                                    <h1>HAMBURGO</h1>
+                                    <a target="_blank" href="https://www.google.com/maps/place/Rennweg+28%2c+8001+Zürich%2c+Svizzera/%4047.373212%2c8.5374621%2c17z/data=%213m1%214b1%214m5%213m4%211s0x47900a071ea66537:0xece40c75ab9fbf5%218m2%213d47.373212%214d8.5396508">
+                                        <p style="margin: 0">Palmaille</p>
+                                        <p style="margin: 0">33, 22767 Hamburgo, Alemanha</p>
+                                        <p style="margin: 0">Tel: +49 (0) 40 / 696 323 -600</p>
+                                        <p style="margin: 0">Fax: +49 (0) 40 / 696 323-655</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
